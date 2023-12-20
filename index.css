@@ -12,7 +12,7 @@ margin: 0;
 }
 @media screen and (max-width:425px) {
     .container{
-        height: 180vh;
+        height: 100%;
     }
 }
 main{
@@ -25,7 +25,7 @@ main{
 }
 @media screen and (max-width:425px) {
     main{
-        /* height: ; */
+        height: 100%;
         flex-direction: column;
         justify-content: space-around;
     }
@@ -43,9 +43,8 @@ main{
 @media screen and (max-width:425px) {
     .left{
         width: 300px;
-        height: 200px;
+        /* height: 200px; */
         /* align-items: center; */
-        /* background-color: red; */
     }
 }
 .right{
@@ -64,6 +63,7 @@ main{
         width: 350px;
         height: 800px;
         align-items: center;
+        margin-bottom: 50px;
     }
 }
 @media screen and (max-width:320px) {
