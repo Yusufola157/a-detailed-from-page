@@ -13,7 +13,7 @@ background-color: red;
 }
 @media screen and (max-width:425px) {
     .container{
-        height: 230vh;
+        height: 180vh;
     }
 }
 main{
